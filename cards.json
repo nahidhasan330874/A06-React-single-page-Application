@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Pro",
+    "description": "Professional resume builder with AI-powered suggestions and industry-specific templates.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ premium templates",
+      "ATS optimization",
+      "AI content suggestions",
+      "Export to PDF & Word",
+      "Cover letter builder"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Career Booster",
+    "description": "Complete career toolkit including resume, cover letter, and LinkedIn optimization.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited resumes",
+      "LinkedIn profile optimizer",
+      "Interview preparation questions",
+      "Job application tracker",
+      "Monthly new templates"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "Premium Annual Plan",
+    "description": "Full access to all career tools for an entire year with maximum savings.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": [
+      "Everything in Career Booster",
+      "Priority AI support",
+      "Advanced analytics",
+      "Portfolio builder",
+      "Save 45% compared to monthly"
+    ],
+    "icon": "🏆"
+  },
+  {
+    "id": 4,
+    "name": "AI Resume Writer",
+    "description": "Next-generation AI that writes your entire resume from scratch in minutes.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI generates full resume",
+      "Job description matching",
+      "Multiple versions",
+      "Real-time editing",
+      "99% ATS pass rate"
+    ],
+    "icon": "🤖"
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Pack",
+    "description": "Perfect for freelancers and consultants - proposals, contracts & portfolio.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Proposal templates",
+      "Client contract builder",
+      "Freelance invoice generator",
+      "Portfolio website builder",
+      "Client management dashboard"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 6,
+    "name": "Student Launchpad",
+    "description": "Specially designed for students and fresh graduates entering the job market.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Student Favorite",
+    "tagType": "popular",
+    "features": [
+      "Academic resume templates",
+      "Internship application tools",
+      "Scholarship essay builder",
+      "No experience templates",
+      "University career center approved"
+    ],
+    "icon": "🎓"
+  },
+  {
+    "id": 7,
+    "name": "Executive Suite",
+    "description": "Premium package for C-level executives and senior professionals.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "Premium",
+    "tagType": "popular",
+    "features": [
+      "Executive resume design",
+      "Leadership profile optimization",
+      "Board-level cover letters",
+      "Personal branding strategy",
+      "1:1 AI career coaching session"
+    ],
+    "icon": "👔"
+  },
+  {
+    "id": 8,
+    "name": "Job Search Mastery",
+    "description": "Complete 90-day job search system with tracking, automation & strategies.",
+    "price": 149,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Job application automation",
+      "Interview practice simulator",
+      "Salary negotiation scripts",
+      "90-day action plan",
+      "Email & follow-up templates"
+    ],
+    "icon": "🎯"
+  }
+]

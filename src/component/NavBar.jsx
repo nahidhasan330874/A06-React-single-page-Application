@@ -3,7 +3,7 @@ const NavBar = () => {
     <div className="navbar flex justify-around bg-base-100 px-10 py-5 shadow-sm ">
       <div>
         <div className="flex items-center gap-1 font-bold text-xl">
-           <h1 className="text-2xl font-bold bg-linear-to-r from-red-400 via-orange-400 to-amber-400 bg-clip-text text-transparent">DigiTools</h1>
+           <h1 className="text-3xl font-bold bg-linear-to-r from-red-400 via-orange-400 to-amber-400 bg-clip-text text-transparent">DigiTools</h1>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
