@@ -22,7 +22,7 @@ const Banner = () => {
             </span>
           </h1>
 
-          <p className="text-lg text-zinc-700 max-w-lg">
+          <p className="text-lg text-[#627382] max-w-lg">
             Access premium AI tools, design assets, templates, and productivity
             software—all in one place. Start creating faster today. Explore
             Products
@@ -38,7 +38,7 @@ const Banner = () => {
                
             </button>
           </div>
-    </div>
+     </div>
 
         {/* Right Image */}
         <div className="relative flex justify-center lg:justify-end">
@@ -52,6 +52,7 @@ const Banner = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
