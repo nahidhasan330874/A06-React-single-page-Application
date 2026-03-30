@@ -14,7 +14,8 @@
       "Export to PDF & Word",
       "Cover letter builder"
     ],
-    "icon": "📄"
+     "image":"https://png.pngtree.com/png-clipart/20250425/original/pngtree-d-isolated-render-of-a-file-format-document-icon-for-apps-png-image_20817707.png"
+
   },
   {
     "id": 2,
@@ -31,7 +32,7 @@
       "Job application tracker",
       "Monthly new templates"
     ],
-    "icon": "🚀"
+    "image": "https://www.vhv.rs/dpng/d/374-3749351_boost-your-career-hd-png-download.png"
   },
   {
     "id": 3,
@@ -48,7 +49,7 @@
       "Portfolio builder",
       "Save 45% compared to monthly"
     ],
-    "icon": "🏆"
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/032/856/792/small/illustrate-the-work-plan-flat-vector.jpg"
   },
   {
     "id": 4,
@@ -65,7 +66,7 @@
       "Real-time editing",
       "99% ATS pass rate"
     ],
-    "icon": "🤖"
+    "image": "https://w7.pngwing.com/pngs/867/1010/png-transparent-png-file-png-file-file-extension-extension-file-format-3d-icon-thumbnail.png"
   },
   {
     "id": 5,
@@ -73,8 +74,8 @@
     "description": "Perfect for freelancers and consultants - proposals, contracts & portfolio.",
     "price": 19,
     "period": "monthly",
-    "tag": "",
-    "tagType": "",
+    "tag": "Premium",
+    "tagType": "premium",
     "features": [
       "Proposal templates",
       "Client contract builder",
@@ -82,7 +83,7 @@
       "Portfolio website builder",
       "Client management dashboard"
     ],
-    "icon": "💼"
+    "image": "https://cdni.iconscout.com/illustration/premium/thumb/female-freelancer-working-from-home-illustration-svg-download-png-4659684.png"
   },
   {
     "id": 6,
@@ -99,7 +100,7 @@
       "No experience templates",
       "University career center approved"
     ],
-    "icon": "🎓"
+    "image": "https://png.pngtree.com/png-vector/20250926/ourmid/pngtree-knowledge-launchpad-png-image_17600849.webp"
   },
   {
     "id": 7,
@@ -116,7 +117,7 @@
       "Personal branding strategy",
       "1:1 AI career coaching session"
     ],
-    "icon": "👔"
+    "image": "https://png.pngtree.com/png-clipart/20211201/ourmid/pngtree-mens-business-suit-shirt-certificate-photo-png-image_4046394.png"
   },
   {
     "id": 8,
@@ -133,6 +134,6 @@
       "90-day action plan",
       "Email & follow-up templates"
     ],
-    "icon": "🎯"
+    "image": "https://png.pngtree.com/png-vector/20231015/ourmid/pngtree-job-search-png-png-image_10164125.png"
   }
 ]
