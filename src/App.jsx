@@ -26,10 +26,10 @@ const cardsData = createCard();
 function App() {
    const [activeTab, setActiveTab] = useState("Products");
    const [carts, setCarts] = useState([]);
-     console.log(carts);
+     
   return (
    <> 
-       <NavBar />
+       <NavBar carts={carts}  />
        <Banner />
        <Rating />
       
