@@ -9,6 +9,7 @@ import Footer from './component/Footer'
 import NavBar from './component/NavBar'
 import Prodects from './component/Prodects'
 import Rating from './component/Rating'
+import Steps from './component/Steps'
  
  
 const createCard = async () => {
@@ -29,7 +30,7 @@ function App() {
       
      <Cards cardsData={cardsData} />
 
-
+     <Steps />
     <Prodects />
      <Footer />
       
