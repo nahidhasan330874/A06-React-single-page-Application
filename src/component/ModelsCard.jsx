@@ -1,9 +1,10 @@
 import { useState } from 'react';
 
-const ModelsCard = ({ card }) => {
+const ModelsCard = ({ card, carts, setCarts }) => {
      const [isCardsData, setIsCardsData] = useState(false);
      const handleAddToCart = () => {
         setIsCardsData(true);
+        setCarts([...carts, card]);
      }
     return (
           <div className=" card p-5 rounded-2xl shadow-lg border overflow-hidden border-gray-200">
