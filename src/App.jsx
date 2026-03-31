@@ -38,7 +38,7 @@ function App() {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-3xl text-xl w-40 "
+          className="tab rounded-3xl text-xl w-40 checked:bg-linear-to-r from-red-400 via-orange-400 to-amber-400  checked:text-white"
           aria-label="Products"
          onClick={() => setActiveTab("Products")}
          defaultChecked
@@ -46,7 +46,7 @@ function App() {
         <input
           type="radio"
           name="my_tabs_1"
-          className="tab rounded-3xl text-xl w-40"
+          className="tab rounded-3xl text-xl w-40 checked:bg-linear-to-r from-red-400 via-orange-400 to-amber-400  checked:text-white"
           aria-label={`Cart (${carts.length })`}
           onClick={() => setActiveTab("Cart")}
         />

@@ -49,17 +49,17 @@
 
 export default function Pricing() {
   return (
-    <div className=" py-20 max-w-7xl mx-auto ">
+    <div className=" py-20 max-w-7xl mx-auto h-full ">
       <div className="text-center mb-12">
         <h2 className="text-5xl font-bold text-center mb-4">Simple, Transparent Pricing</h2>
         <p  className="text-center mb-8 text-gray-500">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-6 px-6">
+      <div className="grid md:grid-cols-3 gap-6 px-6 ">
         {plans.map((plan, id) => (
           <div
             key={id}
-            className={`border border-gray-200 rounded-2xl p-6 relative transition-all
+            className={`border  border-gray-200 rounded-2xl p-6 relative transition-all
             ${
               plan.highlight
                 ? "  bg-linear-to-r from-red-400 via-orange-400 to-amber-400 text-white scale-105 shadow-xl"
@@ -68,7 +68,7 @@ export default function Pricing() {
           >
             {/* Badge */}
             {plan.highlight && (
-              <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-400 text-white text-xs px-3 py-1 rounded-full">
+              <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-600 text-white text-xs px-3 py-1 rounded-full">
                 Most Popular
               </span>
             )}
@@ -92,7 +92,7 @@ export default function Pricing() {
             </h3>
 
             {/* Features */}
-            <ul className="space-y-2 mb-6">
+            <ul className="space-y-2  mb-10 ">
               {plan.features.map((feature, idx) => (
                 <li key={idx} className="flex items-center gap-2">
                   <span className="text-green-500"> <i class="fa-solid fa-check"></i></span>{feature}
@@ -102,10 +102,10 @@ export default function Pricing() {
 
             {/* Button */}
             <button
-              className={`w-full py-2 rounded-full font-medium transition-all
+              className={`w-full  py-2 rounded-full font-medium transition-all
               ${
                 plan.highlight
-                  ? "bg-white text-orange-500 active:scale-95   transition-all  hover:bg-gray-200 "
+                  ? "bg-white text-orange-500 active:scale-95   transition-all  hover:bg-gray-200 mt-4 "
                   : " bg-linear-to-r from-amber-400 via-orange-400 to-red-400 active:scale-95   text-white hover:opacity-90 mt-auto"
               }`}
             >

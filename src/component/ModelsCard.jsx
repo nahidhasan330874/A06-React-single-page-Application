@@ -18,7 +18,7 @@ const ModelsCard = ({ card, carts, setCarts }) => {
 
      }
     return (
-          <div className=" card p-5 rounded-2xl shadow-lg border overflow-hidden border-gray-200">
+          <div className=" card h-full p-5 rounded-2xl shadow-lg border overflow-hidden border-gray-200">
                         <div className="flex flex-col justify-between">
                            <p className="flex justify-end ">  <span className=" inline-flex items-center bg-red-500/10 border border-red-500/30 text-red-400 text-sm font-medium px-4 py-1 rounded-full border-none">{card.tag}</span></p>
 

@@ -16,9 +16,9 @@ const Cart = ({ carts, setCarts }) => {
 
   return (
     <div className="pb-20 max-w-7xl mx-auto p-6 rounded-lg mt-20">
-      <h2 className="text-4xl font-bold mb-4">Your Cart</h2>
+      <h2 className="text-4xl font-bold mb-4">Your Cart:</h2>
       {carts.length === 0 ? (
-        <div className="flex justify-center flex-col items-center text-xl text-gray-500">
+        <div className="flex justify-center flex-col p-20 items-center text-xl text-gray-500">
              <i className="fa-brands fa-opencart w-10 h-10 "></i>
             Your cart is empty.
             </div>

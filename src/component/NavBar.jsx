@@ -3,7 +3,7 @@ const NavBar = ({ carts}) => {
 
 
   return (
-    <div className="navbar flex justify-around bg-base-100 px-10 py-5 shadow-sm ">
+    <div className="navbar fixed  shadow z-50  flex justify-around bg-base-100 px-10 py-5  ">
       <div>
         <div className="flex items-center gap-1 font-bold text-xl">
            <h1 className="text-3xl font-bold bg-linear-to-r from-red-400 via-orange-400 to-amber-400 bg-clip-text text-transparent">DigiTools</h1>
@@ -31,7 +31,7 @@ const NavBar = ({ carts}) => {
       <div className="flex items-center gap-5">
          <button className = "btn w-11 h-10 border-none text-lg rounded-full bg-base-100"> <i class="fa-solid fa-cart-shopping"></i> {cartItemCount} </button>
          <button className="btn border-none text-lg rounded-full bg-base-100">Login</button>
-        <a className="btn bg-red-500 rounded-full text-lg text-white">Get Started</a>
+        <a className="btn bg-linear-to-r from-red-400 via-orange-400 to-amber-400 py-2 rounded-full text-md text-white">Get Started</a>
       </div>
     </div>
   );
