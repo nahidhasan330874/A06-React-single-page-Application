@@ -47,14 +47,14 @@ function App() {
           type="radio"
           name="my_tabs_1"
           className="tab rounded-3xl text-xl w-40"
-          aria-label="Card"
-          onClick={() => setActiveTab("Card")}
+          aria-label={`Cart (${carts.length })`}
+          onClick={() => setActiveTab("Cart")}
         />
          
       </div>
    { activeTab === "Products" && <Cards cardsData={cardsData} carts={carts} setCarts={setCarts} /> }
 
-   { activeTab === "Card" && <Cart carts={carts} /> }
+   { activeTab === "Cart" && <Cart carts={carts} setCarts={setCarts} /> }
 
      <Steps />
      <Prodects />

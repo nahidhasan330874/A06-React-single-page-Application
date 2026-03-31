@@ -1,10 +1,22 @@
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ModelsCard = ({ card, carts, setCarts }) => {
      const [isCardsData, setIsCardsData] = useState(false);
      const handleAddToCart = () => {
         setIsCardsData(true);
+        const isFound = carts.some((item) => item.id === card.id);
+        if (isFound) {
+          toast.info(` ${card.name} is already in the cart!`);
+          return;
+        }
+    
+
         setCarts([...carts, card]);
+         
+        toast.success(`${card.name} added to cart!`);
+
+
      }
     return (
           <div className=" card p-5 rounded-2xl shadow-lg border overflow-hidden border-gray-200">
