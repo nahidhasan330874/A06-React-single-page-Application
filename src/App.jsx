@@ -7,6 +7,7 @@ import Cards from './component/Cards'
 import Footer from './component/Footer'
 
 import NavBar from './component/NavBar'
+import Prodects from './component/Prodects'
 import Rating from './component/Rating'
  
  
@@ -29,7 +30,7 @@ function App() {
      <Cards cardsData={cardsData} />
 
 
-
+    <Prodects />
      <Footer />
       
    </>
