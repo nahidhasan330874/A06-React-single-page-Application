@@ -26,7 +26,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="flex items-center gap-5">
-         <button className="btn w-11 h-10 border-none text-lg rounded-full bg-base-100"> <i class="fa-solid fa-cart-shopping"></i></button>
+         <button className = "btn w-11 h-10 border-none text-lg rounded-full bg-base-100"> <i class="fa-solid fa-cart-shopping"></i> </button>
          <button className="btn border-none text-lg rounded-full bg-base-100">Login</button>
         <a className="btn bg-red-500 rounded-full text-lg text-white">Get Started</a>
       </div>
