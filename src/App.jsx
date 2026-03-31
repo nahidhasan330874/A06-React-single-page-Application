@@ -29,7 +29,7 @@ function App() {
      
   return (
    <> 
-       <NavBar carts={carts}  />
+       <NavBar carts={carts}   />
        <Banner />
        <Rating />
       
